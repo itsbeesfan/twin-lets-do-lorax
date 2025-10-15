@@ -21,8 +21,10 @@ cause i need the 36s, and i thought it was funny, and also to send this to my tw
 1 html, 1 css, 1 js. js switches between the pages and makes the buttons work. not much more about it to be honest...
 
 ### challenges and learning opportunities:
-i did this entirely on my own. no google searches, no nothing. just my brain. this helped me reinforce my js and css skills. it 
-was challenging to find a high quality image of a lorax + onceler costume. yay
+- i did this entirely on my own. no google searches, no nothing. just my brain. this helped me reinforce my js and css skills. 
+- it was challenging to find a high quality image of a lorax + onceler costume. 
+- finally, i found it hard to link the image in github pages (i'd forgotten how to do it correctly, but i eventually worked it out)
+yay
 
 ### extra info
 do i get my 36s yet?
