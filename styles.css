@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body {
+    background: background: #75d99f;
+    background: radial-gradient(circle, rgba(117, 217, 159, 1) 0%, rgba(0, 78, 102, 0.8) 100%);
+    color: #fff4ea;
+}
+
+
+* {
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: outfit;
+}
+
+h2 {
+    font-family: outfit;
+    font-size: 2rem;
+}
+
+p {
+    font-family: outfit;
+    font-size: 1.2rem;
+}
+
+button {
+    height: 10rem;
+    width: 20rem;
+    gap: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+    border-radius: 2rem;
+    border: none;
+    font-family: outfit;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    background-color: lightgray;
+    color: #3a3a3a;
+    cursor: pointer;
+}
+
+section {
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+}
+
+section.active {
+    display: flex;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+img {
+    height: 32rem;
+    width: auto;
+}
+
+#entry,
+#no-section,
+#yes-section {
+    flex-direction: column;
+    align-items: center;
+}
